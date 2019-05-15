@@ -1,18 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  description: MyText
-  image_url: 'galaxym20.jpg'
+  title: MySdasds
+  description: MyTextsdf sdfs sdf
+  image_url: galaxym20.jpg
   price: 9.99
-
 two:
   title: MyString2
-  description: MyText
-  image_url: 'galaxym20.jpg'
+  description: MyTextfsd sdfsd sdf
+  image_url: samsunga305.jpg
   price: 9.99
 ruby:
   title: Programming Ruby 1.9
   description:  Ruby is the fastest growing and most exciting dynamic
   price: 49.50
-  image_url: 'ruby.png'
+  image_url: xiaomia1.jpg
