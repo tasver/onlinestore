@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!DOCTYPE html>
   <title>OnlineStore</title>
   <%= stylesheet_link_tag "application", media: "all",
                           - "data-turbolinks-track" => true %>
@@ -15,6 +16,13 @@
   </div>
 <div id="columns">
 <div id="side">
+  <% if @cart %>
+    <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
+
+      <%= render @cart %>
+
+    <% end %>
+  <% end %>
   <ul>
   <li><a href="http://www....">Home</a></li>
   <li><a href="http://www..../faq">Questions</a></li>
