@@ -27,8 +27,9 @@
   </div>
 
   <div class="field">
-    <%= form.label :price %>
-    <%= form.text_field :price %>
+    <%= form.label :pay_type %><br>
+    <%= form.select :pay_type, Order::PAYMENT_TYPES,
+                   prompt: 'Select a payment method' %>
   </div>
 
   <div class="actions">
