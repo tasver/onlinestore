@@ -6,8 +6,10 @@ ruby '2.6.1'
 gem 'jquery-rails', '~> 4.3.3'
 gem 'jquery-ui-rails', '~> 6.0.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.3'
 
+gem 'rails', '~> 5.2.3'
+# Use sqlite3 as the database for Active Record
+gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -43,8 +45,6 @@ group :development, :test do
 end
 
 group :development do
-  # Use sqlite3 as the database for Active Record
-  gem 'pg', '0.20.0'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.6.1'
   gem 'listen', '>= 3.0.5', '< 3.2'
@@ -54,8 +54,6 @@ group :development do
 end
 
 group :test do
-  # Use sqlite3 as the database for Active Record
-  gem 'pg', '0.20.0'
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
@@ -67,7 +65,7 @@ gem 'rails-controller-testing'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-  gem 'pg', '0.20.0'
+  gem 'pg'
 end
 
 
