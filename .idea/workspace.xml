@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb532dec-f004-42db-93c5-06c6cc365a92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/onlinestore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/onlinestore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="271">
+              <caret line="25" column="51" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="25" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -216,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rake.test: onlinestore">
+  <component name="RunManager" selected="Rails.Production: onlinestore">
     <configuration name="Development: onlinestore" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="onlinestore" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -394,7 +391,7 @@
       <workItem from="1558796573021" duration="158000" />
       <workItem from="1558981608971" duration="926000" />
       <workItem from="1559045492653" duration="5827000" />
-      <workItem from="1559130684758" duration="10456000" />
+      <workItem from="1559130684758" duration="10820000" />
     </task>
     <servers />
   </component>
@@ -431,7 +428,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102253000" />
+    <option name="totallyTimeSpent" value="102617000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,7 +448,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33041957" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33041957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,7 +456,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49959448" visible="true" weight="0.4090909" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49959448" weight="0.4090909" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004055" side_tool="true" weight="0.41083917" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -475,7 +472,7 @@
     <SUITE FILE_PATH="coverage/onlinestore@spec__onlinestore.rcov" NAME="spec: onlinestore Coverage Results" MODIFIED="1558297344589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="onlinestore" />
     <SUITE FILE_PATH="coverage/onlinestore@product_test.rcov" NAME="product_test Coverage Results" MODIFIED="1557932020602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/models" MODULE_NAME="onlinestore" />
     <SUITE FILE_PATH="coverage/onlinestore@Development__onlinestore.rcov" NAME="Development: onlinestore Coverage Results" MODIFIED="1559139925581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="onlinestore" />
-    <SUITE FILE_PATH="coverage/onlinestore@Production__onlinestore.rcov" NAME="Production: onlinestore Coverage Results" MODIFIED="1559139788961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="onlinestore" />
+    <SUITE FILE_PATH="coverage/onlinestore@Production__onlinestore.rcov" NAME="Production: onlinestore Coverage Results" MODIFIED="1559142191908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="onlinestore" />
     <SUITE FILE_PATH="coverage/onlinestore@test__onlinestore.rcov" NAME="test: onlinestore Coverage Results" MODIFIED="1559139937143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="onlinestore" />
   </component>
   <component name="editorHistoryManager">
@@ -820,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="271">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="25" selection-end-column="51" />
         </state>
       </provider>
     </entry>

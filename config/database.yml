@@ -22,3 +22,5 @@ test:
 production:
   <<: *default
   database: project_production
+  username: postgres
+  password: 123
