@@ -11,7 +11,7 @@ class OrdersControllerTest < ActionDispatch::IntegrationTest
   end
   test "requires item in cart" do
     get new_order_url
-    assert_redirected_to store_index_path
+    assert_redirected_to store_path
     assert_equal flash[:notice], 'Your cart is empty'
   end
   test "should get new" do
@@ -25,7 +25,7 @@ class OrdersControllerTest < ActionDispatch::IntegrationTest
     assert_difference('Order.count') do
       post orders_url, params: { order: { address: @order.address, email: @order.email, name: @order.name, pay_type: @order.pay_type} }
     end
-    assert_redirected_to store_index_url
+    assert_redirected_to store_url
   end
 
   test "should show order" do
