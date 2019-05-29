@@ -1,12 +1,8 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  #
-  #
-  #
   config.force_ssl = true
   # Code is not reloaded between requests.
   config.cache_classes = true
-
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
@@ -95,21 +91,4 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-
-
-  config.file_watcher = ActiveSupport::EventedFileUpdateChecker
-
-
-  config.action_mailer.delivery_method = :smtp
-
-  config.action_mailer.smtp_settings = {
-      address: "smtp.gmail.com",
-      port: 587,
-      domain: "gmail.com",
-      authentication: "plain",
-      user_name: "bohdannavrotskyii@gmail.com",
-      password: "bodik_18",
-      enable_starttls_auto: true
-  }
-
 end
